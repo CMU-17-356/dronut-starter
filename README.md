@@ -103,6 +103,7 @@ from Travis CI, to make it easier to track the status of your build.
 necessary, you may need to install the Docker Daemon on your machine to properly
 complete the assignment. Read the [get-started](https://www.docker.com/get-started) guide for downloading Docker
 locally. If you're on a Linux OS, starting [here](https://docs.docker.com/machine/install-machine/) would be more helpful.
+**MAKE sure you do not install docker via snap. Snap's version of docker is outdated**
 
 ### Deployment
 1. You should have received an email about signing-up/accepting a assignment/lab
