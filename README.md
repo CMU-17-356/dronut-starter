@@ -102,7 +102,7 @@ from Travis CI, to make it easier to track the status of your build.
 1. Although Docker should already be configured (see `Dockerfile` and `docker-compose.yml`) as
 necessary, you may need to install the Docker Daemon on your machine to properly
 complete the assignment. Read the [get-started](https://www.docker.com/get-started) guide for downloading Docker
-locally.
+locally. If you're on a Linux OS, starting [here](https://docs.docker.com/machine/install-machine/) would be more helpful.
 
 ### Deployment
 1. You should have received an email about signing-up/accepting a assignment/lab
