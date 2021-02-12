@@ -21,9 +21,9 @@ these two links:
 * [GitHub Learning Lab](https://lab.github.com/)
 * [GitHub Guides](https://guides.github.com/)
 
-### Travis CI
-1. Enable travis-ci.com for this repository. To do this, go to the [travis website](https://travis-ci.com),
-and grant Travis permissions over your repository.
+### Travis CI / Github Actions
+1. Enable travis-ci.com or github actions. for this repository. To do this, go to the [travis website](https://travis-ci.com),
+and grant Travis permissions over your repository, or enable github actions.
 
 ### Initialize NodeJS/NPM
 1. If you haven't already, install NodeJS and NPM on your computer.
