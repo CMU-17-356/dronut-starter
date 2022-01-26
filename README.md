@@ -91,11 +91,10 @@ single test, which doesn't actually test anything (besides that your tests run).
     > > ...
     > ```
 
-4. Verify that the above tools and targets can be executed by TravisCI.
+4. Verify that the above tools and targets can be executed by Github Actions.
 
 5. Document the above tools in your README. Also update this boilerplate once
-it's no longer needed. We also recommend  [embedding the build status image](https://docs.travis-ci.com/user/status-images/)
-from Travis CI, to make it easier to track the status of your build.
+it's no longer needed.
 
 ### Docker
 1. Although Docker should already be configured (see `Dockerfile` and `docker-compose.yml`) as
@@ -127,8 +126,8 @@ setup a Virtual Machine suitable for running Docker **with the following conside
     $repository_name
      ```
   * **stop before the step "run a container"**.
-  * Copy the IP address of your VM and your *$repository_name* (i.e. project/machine-name) into `.travis.yml`.
+  * Copy the IP address of your VM and your *$repository_name* (i.e. project/machine-name) into your Github Actions `.yml`
   * If you've set that ENV var, Run `cp -r "$DOCKER_CERT_PATH" ./azure`to copy your deployment certificates
   into your repository. Otherwise, you can run `cp -r ~/.docker/machine/machines/$repository_name/* ./azure`
 
-This should enable automatic deployment via Travis CI!
+This should enable automatic deployment via Github Actions!
