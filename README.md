@@ -6,7 +6,7 @@ In order to get ready to write productive code, complete the following steps dur
 Your associated *cmu email* should show up in a listing and you can link your GitHub account.
 Subsequent members should choose to join an existing team using the same link.
 You may want to name your repository something like `foobarbaz`, which
-will end up as `dronuts-2019-foobarbaz`, aka your *$respository_name*.
+will end up as `dronuts-2023-foobarbaz`, aka your *$respository_name*.
 
 We're ok with you keeping your project public, but you can make it private if you so desire. Don't
 forget to add `.gitignore` and `License** files!
