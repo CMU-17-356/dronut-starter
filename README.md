@@ -2,7 +2,7 @@
 In order to get ready to write productive code, complete the following steps during Sprint 0:
 
 ### Repository Setup
-1. Create a new team and GitHub repository for your project using [GitHub classroom](https://classroom.github.com/g/PtX0YpR0).
+1. Create a new team and GitHub repository for your project using [GitHub classroom](https://classroom.github.com/a/gHfJdaqu).
 Your associated *cmu email* should show up in a listing and you can link your GitHub account.
 Subsequent members should choose to join an existing team using the same link.
 You may want to name your repository something like `foobarbaz`, which
@@ -15,14 +15,10 @@ forget to add `.gitignore` and `License** files!
 tracking and project managment; Slack, Jira, GitHub Issues, ZenHub, Trello,
 whatever it is your team would like to use.
 
-If you're new to Git and GitHub, we highly recommend reading and running through
-these two links:
-
-* [GitHub Learning Lab](https://lab.github.com/)
-* [GitHub Guides](https://guides.github.com/)
+If you're new to Git and GitHub, we highly recommend reading the [GitHub Documentation](https://docs.github.com/).
 
 ### Github Actions
-1. Enable github actions. To do this, [these steps can be followed](https://docs.github.com/en/actions/quickstart).
+1. Enable Github Actions. To do this, [these steps can be followed](https://docs.github.com/en/actions/quickstart).
 
 ### Initialize NodeJS/NPM
 1. If you haven't already, install NodeJS and NPM on your computer.
@@ -37,10 +33,10 @@ server applications. For the purposes of this assignment, there are two options 
 The [Express Framework](https://expressjs.com/) is a general-purpose web
 development framework with widespread adoption.
 
-* <b>Option 2: Loopback</b><br>
-The [Loopback Framework](https://loopback.io/) is a purpose-built REST API framework, with a smaller user base.
+* <b>Option 2: Fastify</b><br>
+The [Fastify Framework](https://fastify.io/) is a low overhead web framework built for Node.js.
 
-As a deliverable of sprint 0, you will be asked to compare these frameworks. You
+As a deliverable of Sprint 0, you will be asked to compare these frameworks. You
 should familiarize yourself with both projects in order to justify your decision.
 Once the decision is made, install it in your groups repository.
 
@@ -105,7 +101,7 @@ locally. If you're on a Linux OS, starting [here](https://docs.docker.com/machin
 
 ### Deployment
 1. You should have received an email about signing-up/accepting a assignment/lab
-from Microsoft, related to the class and registering with azure. Let us know 
+from Microsoft, related to the class and registering with Azure. Let us know 
 if you haven't. We recommend using the [Azure Cli](https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli?view=azure-cli-latest) 
 to access your account info.
 
