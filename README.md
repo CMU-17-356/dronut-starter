@@ -104,5 +104,5 @@ complete the assignment. Read the
 [get-started](https://www.docker.com/get-started) guide for downloading Docker
 locally. If you're on a Linux OS, starting
 [here](https://docs.docker.com/machine/install-machine/) would be more helpful.
-**MAKE sure you do not install docker via snap. Snap's version of docker is outdated**
+**MAKE sure you do not install docker via snap. Snap's version of docker is outdated**.
 
